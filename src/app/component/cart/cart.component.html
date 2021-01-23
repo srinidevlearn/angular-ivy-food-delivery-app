@@ -1,0 +1,19 @@
+<app-nav></app-nav>
+<ng-container *ngIf="!cartPage.length">
+	<div class="card mt-5 pt-5">
+		<p>No item to display</p>
+	</div>
+</ng-container>
+<ng-container *ngIf="cartPage.length">
+	<div class="row mt-5 pt-5">
+		<div class="col-sm-12">
+			<div class="card">
+				<div class="d-flex justify-content-between px-3">
+					<div><img></div>
+						<div>2</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+</ng-container>
